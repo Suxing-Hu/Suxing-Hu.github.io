@@ -1,0 +1,57 @@
+.nav  *{
+  margin-top: 1;
+  padding: 0;
+}
+
+body {
+  font: 300 25px "微软雅黑";
+  background: #EFF8F7;
+}
+
+.nav ul {
+  background: #BEE2DE;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  white-space: nowrap; 
+}
+.nav ul li {
+  position: relative; 
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #6B6B6B;
+  padding: 10px 52px;
+  display: block;
+  background: url(detail.png) bottom right no-repeat;
+}
+
+.nav ul li a:only-child {
+  background: none;
+}
+.nav ul li:hover {
+  background: #9DD4CE;
+}
+.nav ul li:hover > a {
+  color: #fff;
+}
+.nav ul li:hover > ul {
+  display: block; 
+}
+.nav nav > ul > li {
+  display: inline-block; 
+}
+
+.nav ul ul {
+  position: absolute;
+  top: 100%;
+  list-style: none;
+  background: #9AE7DE;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  display: none;
+}
+
+.box{margin:0 auto; width:1000px;}
+	
+
+
+
